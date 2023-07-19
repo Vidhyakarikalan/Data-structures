@@ -1,0 +1,13 @@
+void insertStart (struct Node **head, int data)
+{
+
+  struct Node *newNode = (struct Node *) malloc (sizeof (struct Node));
+
+  newNode - >
+  data = data;
+  newNode - >
+  next = *head;
+
+  //changing the new head to this freshly entered node
+  *head = newNode;
+}
